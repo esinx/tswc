@@ -5,12 +5,16 @@
 
 Compile your TypeScript with tsconfig.json using [swc](https://swc.rs)
 
+## Changes
+
+This version of tswc uses `os.tmpdir` to create files instead of `path.cwd`.
+
 ## Install
 
 ```bash
-npm install tswc @swc/core -D
+npm install @esinx/tswc @swc/core -D
 # Or Yarn
-yarn add tswc @swc/core --dev
+yarn add @esinx/tswc @swc/core --dev
 ```
 
 ## Usage
