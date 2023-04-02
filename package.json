@@ -1,5 +1,5 @@
 {
-  "name": "tswc",
+  "name": "@esinx/tswc",
   "version": "1.2.0",
   "description": "Compile your TypeScript with tsconfig.json using swc",
   "bin": "dist/cli.js",
@@ -23,7 +23,7 @@
     "compiler",
     "typescript"
   ],
-  "author": "Songkeys",
+  "author": "esinx",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Songkeys/tswc/issues"
