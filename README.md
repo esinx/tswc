@@ -45,7 +45,7 @@ Now you can run `npm run build` to build.
 
 ## Notice
 
-Only a subgroup of fields of tsconfig is supported currently. This is done with [tsconfig-to-swcconfig](https://github.com/Songkeys/tsconfig-to-swcconfig). This means that some tsc features may be missing when compiling with this.
+Only a subgroup of fields of tsconfig is supported currently. This is done with [tsconfig-to-swcconfig](https://github.com/esinx/tsconfig-to-swcconfig). This means that some tsc features may be missing when compiling with this.
 
 If you want to know what swc config is exactly used, you can use `--debug` to inspect:
 
