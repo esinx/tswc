@@ -1,6 +1,6 @@
 {
   "name": "@esinx/tswc",
-  "version": "1.2.0-1",
+  "version": "1.2.0-2",
   "description": "Compile your TypeScript with tsconfig.json using swc",
   "bin": "dist/cli.js",
   "scripts": {
