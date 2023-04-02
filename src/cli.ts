@@ -5,6 +5,7 @@ import { cac } from 'cac'
 import { convert } from 'tsconfig-to-swcconfig'
 import { spawnSync } from 'child_process'
 
+import os from 'os'
 const cli = cac('tswc')
 
 cli
@@ -23,7 +24,7 @@ cli
 
     const SWCRC_FILENAME =
       '.swcrc_from_tsconfig' + Math.random().toString().slice(8) // add some randomness to avoid collisions
-    const SWCRC_PATH = path.resolve(process.cwd(), SWCRC_FILENAME)
+    const SWCRC_PATH = path.resolve(os.tmpdir(), SWCRC_FILENAME)
     try {
       // convert tsconfig.json to swcrc
       const swcrc = convert(tsconfig, process.cwd(), oSwcOptions)
